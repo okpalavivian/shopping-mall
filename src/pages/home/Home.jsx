@@ -1,5 +1,8 @@
 import React from "react";
-const Product = () => {
-  return <div>Product</div>;
+
+const Home = () => {
+  return( <div>Home
+  
+  </div>)
 };
-export default Product;
+export default Home;
