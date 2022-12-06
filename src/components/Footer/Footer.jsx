@@ -44,8 +44,14 @@ const Footer = () => {
     </div>
   </div>
     <div className="bottom">
-      <div ClassName="left"></div>
-      <div ClassName="right"></div>
+      <div ClassName="left">
+        <span className="copyright">
+          @Copyright 2022, All Rights Reserved
+        </span>
+      </div>
+      <div ClassName="right">
+        <img src="/img/payment.png" alt=""/>
+      </div>
     </div>
   </div>)
 };
