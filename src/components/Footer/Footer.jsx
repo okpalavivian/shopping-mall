@@ -45,6 +45,7 @@ const Footer = () => {
   </div>
     <div className="bottom">
       <div ClassName="left">
+        <span className="logo">SUVCOUTURE</span>
         <span className="copyright">
           @Copyright 2022, All Rights Reserved
         </span>
