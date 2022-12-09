@@ -1,9 +1,66 @@
 import React from 'react'
 import "./FeaturedProduct.scss"
 
-function FeaturedProduct() {
+const FeaturedProduct=({type}) =>{
+
+  const data =[
+    {
+      id: 1,
+      img:"https://i.postimg.cc/7YqgFxPp/30-Latest-Ankara-Styles-For-Wedding-2021-2022-Claraito-s-Blog.jpg",
+      img2: "",
+      title: "shoe",
+      isNew: true,
+      oldPrice: 19,
+      price: 12,
+
+    },
+    {
+      id: 2,
+      img:"https://i.postimg.cc/j2ZzwJ19/Ankara-Styles-2022-25-Attractive-latest-Ankara-long-gown-styles-For-Cute-Ladies.jpg",
+      img2: "",
+      title: "shoe",
+      isNew: true,
+      oldPrice: 19,
+      price: 12,
+
+    },
+    {
+      id: 3,
+      img:"https://i.postimg.cc/XqhRbX8M/mother-g6f9c23460-640.jpg",
+      
+      img2: "",
+      title: "shoe",
+      isNew: true,
+      oldPrice: 19,
+      price: 12,
+
+    },
+    {
+      id: 4,
+      img:"https://i.postimg.cc/7YqgFxPp/30-Latest-Ankara-Styles-For-Wedding-2021-2022-Claraito-s-Blog.jpg",
+      img2: "",
+      title: "shoe",
+      isNew: true,
+      oldPrice: 19,
+      price: 12,
+
+    }
+  ]
   return (
-    <div className='featuredProduct'>
+    <div className='featuredProducts'>
+       <div className='top'>
+<h1>{type} products</h1>
+<p>Lorem ipsum dolor sit amet, 
+    consectetur adipiscing elit, sed do eiusmod 
+    tempor incididunt ut labore et dolore magna
+     aliqua. Ut enim ad minim veniam, quis nostrud
+      exercitation ullamco laboris nisi ut aliquip
+       ex ea commodo consequat</p>
+</div>
+
+<div className='bottom'>
+       </div>
+     
       
     </div>
   )
