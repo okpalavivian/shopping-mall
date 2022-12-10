@@ -1,5 +1,4 @@
 import React from "react";
-import ReactDOM from "react-dom/client";
 import Home from "./pages/home/Home";
 import Products from "./pages/products/Products";
 import Product from "./pages/product/Product";
