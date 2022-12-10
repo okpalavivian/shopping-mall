@@ -1,5 +1,6 @@
 import React from 'react'
 import "./FeaturedProduct.scss"
+import Card from "../../components/card/Card"
 
 const FeaturedProduct=({type}) =>{
 
@@ -7,7 +8,8 @@ const FeaturedProduct=({type}) =>{
     {
       id: 1,
       img:"https://i.postimg.cc/7YqgFxPp/30-Latest-Ankara-Styles-For-Wedding-2021-2022-Claraito-s-Blog.jpg",
-      img2: "",
+      img2: "https://i.postimg.cc/XqhRbX8M/mother-g6f9c23460-640.jpg",
+      
       title: "shoe",
       isNew: true,
       oldPrice: 19,
@@ -59,6 +61,10 @@ const FeaturedProduct=({type}) =>{
 </div>
 
 <div className='bottom'>
+  {data.map(item=>(
+    <Card item={item} key= {item.id}/>
+  ))}
+  
        </div>
      
       
