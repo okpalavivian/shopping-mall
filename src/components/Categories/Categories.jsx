@@ -2,12 +2,13 @@ import React from 'react'
 import "./categories.scss";
 import {Link} from "react-router-dom";
 
+
 const Categories = () => {
   return (
     <div className='categories'>
       <div className='col'>
       <div className='row'>
-      <img src="https://i.postimg.cc/XqhRbX8M/mother-g6f9c23460-640.jpg" alt="" />
+      <img src="https://i.postimg.cc/qvN5YTMn/60-Latest-Ankara-Styles-for-Women-2022-Claraito-s-Blog.jpg" alt="" />
   <button>
   <Link className="link" to="/products/1">Sale</Link>
   </button>
