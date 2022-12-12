@@ -46,6 +46,46 @@ const Lists = () => {
         oldPrice: 19,
         price: 12,
   
+      },
+      {
+        id: 5,
+        img:"https://i.postimg.cc/7YqgFxPp/30-Latest-Ankara-Styles-For-Wedding-2021-2022-Claraito-s-Blog.jpg",
+        img2: "",
+        title: "shoe",
+        isNew: true,
+        oldPrice: 19,
+        price: 12,
+  
+      },
+      {
+        id: 6,
+        img:"https://i.postimg.cc/7YqgFxPp/30-Latest-Ankara-Styles-For-Wedding-2021-2022-Claraito-s-Blog.jpg",
+        img2: "",
+        title: "shoe",
+        isNew: true,
+        oldPrice: 19,
+        price: 12,
+  
+      },
+      {
+        id: 7,
+        img:"https://i.postimg.cc/7YqgFxPp/30-Latest-Ankara-Styles-For-Wedding-2021-2022-Claraito-s-Blog.jpg",
+        img2: "",
+        title: "shoe",
+        isNew: true,
+        oldPrice: 19,
+        price: 12,
+  
+      },
+      {
+        id: 8,
+        img:"https://i.postimg.cc/7YqgFxPp/30-Latest-Ankara-Styles-For-Wedding-2021-2022-Claraito-s-Blog.jpg",
+        img2: "",
+        title: "shoe",
+        isNew: true,
+        oldPrice: 19,
+        price: 12,
+  
       }
     ]
     return (
