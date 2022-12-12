@@ -1,4 +1,3 @@
-import React from "react";
 import Home from "./pages/home/Home";
 import Products from "./pages/products/Products";
 import Product from "./pages/product/Product";
@@ -10,40 +9,38 @@ const Layout = () => {
   return (
     <div className="app">
       <Navbar />
-      <Home />
+      <Outlet />
       <Footer />
     </div>
   );
 };
 const router = createBrowserRouter([
-  {
-    path: "/",
-    element: <Layout />,
-    Children: [
-      {
-        path:"/",
-        element:<Home/>
-      },
-    
+{
+  path:"/",
+  element:<Layout />,
+  children:[
+
     {
-        path:"/products/:id",
-        element:<Products/>
-      },
-      {
-        path:"/product/:id",
-        element:<Product/>
-      },
-
-    
-
-    ]
-  }
+      path:"/",
+      element:<Home/>
+    },
+  
+  {
+      path:"/products/:id",
+      element:<Products/>
+    },
+    {
+      path:"/product/:id",
+      element:<Product/>
+    },
+],
+}
 ]);
 
 function App() {
-  return (
-    <div>
-      <RouterProvider router={router} />
+return (
+  <div>
+    <RouterProvider router={router} />
     </div>
   );
 }

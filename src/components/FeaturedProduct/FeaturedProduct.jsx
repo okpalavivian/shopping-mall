@@ -18,7 +18,7 @@ const FeaturedProduct=({type}) =>{
     },
     {
       id: 2,
-      img:"https://i.postimg.cc/j2ZzwJ19/Ankara-Styles-2022-25-Attractive-latest-Ankara-long-gown-styles-For-Cute-Ladies.jpg",
+      img:"https://i.postimg.cc/4Ny4KjZJ/Ankara-stylish-wears-for-women.jpg",
       img2: "",
       title: "shoe",
       isNew: true,
@@ -28,7 +28,7 @@ const FeaturedProduct=({type}) =>{
     },
     {
       id: 3,
-      img:"https://i.postimg.cc/XqhRbX8M/mother-g6f9c23460-640.jpg",
+      img:"https://i.postimg.cc/63xLqdvX/Beautiful-Ankara-dress.jpg",
       
       img2: "",
       title: "shoe",
@@ -39,7 +39,7 @@ const FeaturedProduct=({type}) =>{
     },
     {
       id: 4,
-      img:"https://i.postimg.cc/7YqgFxPp/30-Latest-Ankara-Styles-For-Wedding-2021-2022-Claraito-s-Blog.jpg",
+      img:"https://i.postimg.cc/fbrprqpv/Pinterest.jpg",
       img2: "",
       title: "shoe",
       isNew: true,
