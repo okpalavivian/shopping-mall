@@ -12,7 +12,7 @@ const Products = () => {
   const[maxPrice, setMaxPrice] = useState(1000)
 const [sort, setSort] = useState(null)
 
-  return <div className="products">Products
+  return <div className="products">
   <div className="left">
 <div className="filterItem">
 
@@ -26,7 +26,7 @@ const [sort, setSort] = useState(null)
   
   <div className="inputItem">
 <input type="checkbox" id="2" value={2} />
-<label htmlFor="2">Coporates</label>
+<label htmlFor="2">Coporates wears</label>
   </div>
 
   <div className="inputItem">
